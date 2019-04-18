@@ -9,7 +9,7 @@ const AddItemForm = ({ addItem }) => {
     addItem(itemInput.current.value);
     e.currentTarget.reset();
   }
-  const hasInput = addItem.length > 0;
+  const hasInput = addItem.name.length > 0;
   return (
     <form onSubmit={handleSubmit}>
       <input
