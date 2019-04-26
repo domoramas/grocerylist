@@ -1,8 +1,9 @@
 {
-  "homepage": "http://domoramas.com/grocerylist",
+  
   "name": "react_grocery_list",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://domoramas.github.io/grocerylist",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
